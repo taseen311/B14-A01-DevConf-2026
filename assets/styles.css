@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+nav{
+    padding: 20px 0;
+}
+ul{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #575757;
+}
+button{
+    padding: 10px 25px;
+    color: aliceblue;
+    background-color: #1D4ED8;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+}
