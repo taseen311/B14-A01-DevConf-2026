@@ -185,3 +185,19 @@ thead{
     color: #575757;
     font-weight: 700;
 }
+footer{
+    color:#575757;
+    font-weight: 700;
+    background-color: steelblue;
+    padding: 60px;
+}
+footer .upper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+footer div a img{
+    width: 40px;
+}
