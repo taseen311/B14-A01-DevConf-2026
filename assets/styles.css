@@ -83,4 +83,54 @@ section h3{
 .speakers div .txt .btm-txt{
     color: #8c8888; 
 }
+.spot-section .spot-head p{
+    text-align: center;
+    font-weight: 600;
+    color: #8c8888;
+}
+
+.cards{
+    padding: 30px 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+.spot-section .cards .card{
+    border: 1px solid #e3dfdf;
+    border-radius: 20px;
+    padding: 30px;
+}
+.spot-section .cards .card .st-half{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e3dfdf;
+}
+.spot-section .cards .card .nd-half ul{
+    list-style:disc ;
+    padding: 20px 20px; 
+}
+.spot-section .cards .card p, li{
+    color: #8c8888;
+    font-weight: 600;
+}
+.nd-card-bg{
+    background-color: #0D1B2A;
+}
+.nd-card-bg .st-half h2{
+    color:aliceblue
+}
+.nd-card-bg button{
+    width: 100%;
+}
+.st-card button{
+    background-color: aliceblue;
+    color: #0D1B2A;
+    border: 1px solid;
+    width: 100%;
+}
+.rd-card button{
+    background-color:aliceblue;
+    color: green;
+    border: 1px solid;
+    width: 100%;
+}
 
